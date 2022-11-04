@@ -1,0 +1,139 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.filtres ul {
+    margin: 0;
+}
+
+.filter {
+    padding: 0;
+}
+
+.filter-title {
+    padding: 0px 10px;
+}
+
+/*Hébergement*/
+
+#hébergements {
+    height: 98.5%;
+    margin-right: 10px;
+}
+
+.hotels {
+    margin: 0;
+    width: 40%;
+}
+
+
+#afficher {
+    margin-top: 5px;
+}
+
+/*Populaire*/
+#populaires {
+    height: 865px;
+    width: 40%;
+    padding-left: 0;
+
+}
+
+#h2 {
+    margin-left: 0px;
+    margin-right: 10px;
+
+}
+
+#h2etoile {
+    margin-bottom: 8px;
+}
+
+.hotelsP {
+    height: 190px;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-photoP {
+    width: 98%;
+    height: 98%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+/*Activité Marseille*/
+#activités {
+    height: 70%;
+    width: auto;
+}
+
+#BlocActivités {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 20px;
+    gap: 40px;
+
+}
+
+.Gbloc {
+    height: 55%;
+    width: 31%;
+}
+
+.Gbloc h3 {
+    padding-top: 5px;
+
+}
+
+.ImgG {
+    height: 87%;
+}
+
+.Fbloc {
+    height: 60%;
+    width: 61%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.Pbloc {
+    height: 92%;
+}
+
+.ImgP {
+    height: 87%;
+}
+
+/*Footer*/
+
+
+#footer {
+    margin-top: 150px;
+    margin-right: 0px;
+    height: 15%;
+    width: 100%;
+}
+
+#propos {
+    width: 30%;
+    margin-right: 10px;
+}
+
+#NosHébergements {
+    width: 35%;
+    margin-right: 10px;
+}

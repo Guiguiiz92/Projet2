@@ -1,0 +1,272 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+/* Header*/
+#haut {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
+#logo {
+    height: 30%;
+    width: 30%;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+#TitrePrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+/* Menu Nav*/
+nav {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav a {
+    margin: 5px;
+}
+
+nav li {
+    margin: 0px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    border-bottom: rgb(233, 233, 233) 3px solid;
+}
+
+nav a:hover {
+    border-top: 0px;
+    padding-top: 0px;
+}
+
+nav li:hover {
+    color: #0065FC;
+    border-bottom: #0065FC 3px solid;
+    border-top: #0065FC 0;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.h1p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Menu de Recherche*/
+#Barre {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 95%;
+}
+
+#bouton {
+    width: 15%;
+}
+
+.btnRecherche {
+    width: 100%;
+}
+
+.btnRecherche span {
+    display: none;
+}
+
+.btnRecherche #loupe {
+    display: inline;
+}
+
+/* Menu choix de voyage*/
+
+.filtres {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+    height: auto;
+    padding-left: 20px;
+    margin-left: 0px;
+    overflow: hidden;
+}
+
+.filtres ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    height: 40%;
+    gap: 10px;
+    margin: 0px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.filtres {
+    margin-bottom: 10px;
+}
+
+.filter {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Menu populaire (passe avant l'hébergements)*/
+section {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 260%;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+}
+
+#populaires {
+    width: 102%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 0%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.hotel-cartesP {
+    width: 100%;
+    height: 600px;
+    margin-top: 15px;
+
+}
+
+.hotel-photoP {
+    width: 40%;
+    height: 143px;
+}
+
+#hébergements {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#hébergements h2 {
+    margin-left: 8%;
+}
+
+.hotels {
+    display: flex;
+    justify-content: center;
+    width: 88%;
+    margin: 0;
+}
+
+
+/* Menu des activités (en colonne)*/
+
+#BlocActivités {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 12px;
+    align-items: center;
+}
+
+.Fbloc {
+    width: 90%;
+    height: 30%;
+    gap: 50px;
+}
+
+.Gbloc {
+    width: 90%;
+    height: auto;
+}
+
+.ImgG {
+    height: 135px;
+}
+
+#BlocActivités h3 {
+    height: 10%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.Mbloc {
+    width: 99%;
+    height: auto;
+}
+
+.ImgM {
+    height: 135px;
+}
+
+.Pbloc {
+    width: 100%;
+    height: auto;
+}
+
+.ImgP {
+    height: 135px;
+}
+
+/* Menu Footer*/
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    width: 97.4%;
+    height: 100%;
+    margin: 0;
+    margin-top: 20px;
+
+    padding-bottom: 30px;
+
+}
+
+#propos {
+    margin: 0%;
+    padding-left: 20px;
+}
+
+#NosHébergements {
+    width: auto;
+    margin-right: 0;
+    padding-left: 20px;
+}
+
+#Assistance {
+    padding-left: 20px;
+}
